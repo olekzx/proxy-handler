@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "proxy-handler"
+version = "1.0.0"
+description = "simple proxy class"
+dependencies = ["httpx >= 0.27.0"]
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [{name = "olezx", email = "olekzx@python.com"}]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["python", "proxy", "socks5", "https", "http", "requests", "httpx", "async"]
+requires-python = ">=3.10"
+
+[project.urls]
+"Homepage" = "https://github.com/olekzx/proxy-handler"
+"Bug Tracker" = "https://github.com/olekzx/proxy-handler/issues"
